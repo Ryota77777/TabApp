@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}Личный кабинет | TabApp{% endblock %}
+
+{% block content %}
+<div class="container text-center mt-5">
+    <h1 class="mb-4">Добро пожаловать, {{ user.username }}!</h1>
+
+    <div class="row g-4">
+        <div class="col-md-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Имя</h5>
+                    <p class="card-text fs-4 fw-bold text-primary">{{ employee.first_name }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Фамилия</h5>
+                    <p class="card-text fs-4 fw-bold text-primary">{{ employee.last_name }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Должность</h5>
+                    <p class="card-text fs-4 fw-bold text-primary">{{ employee.position }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Дата приёма</h5>
+                    <p class="card-text fs-4 fw-bold text-primary">
+                        {{ employee.date_joined|date:"d.m.Y" }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <a href="{% url 'settings' %}" class="btn btn-outline-secondary">⚙️ Настройки</a>
+    </div>
+</div>
+{% endblock %}
+
+
+
+
+
+
+

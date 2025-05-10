@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}Табель учета рабочего времени{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Табель учета</h2>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>Дата</th>
+                    <th>Сотрудник</th>
+                    <th>Начало работы</th>
+                    <th>Конец работы</th>
+                    <th>Отработано часов</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for tabel in tabels %}
+                <tr>
+                    <td>{{ tabel.date }}</td>
+                    <td>{{ tabel.employee }}</td>
+                    <td>{{ tabel.time_in|time:"H:i" }}</td>
+                    <td>{{ tabel.time_out|time:"H:i" }}</td>
+                    <td>{{ tabel.hours }}</td>  
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="5" class="text-center">Нет данных за выбранный период.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="{% url 'export_attendance' %}" class="btn btn-outline-primary">Экспортировать в Excel</a>
+    </div>
+</div>
+{% endblock %}
+

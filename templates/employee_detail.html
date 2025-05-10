@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Детали сотрудника{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white">
+            <h4>Сотрудник: {{ employee.first_name }} {{ employee.last_name }}</h4>
+        </div>
+        <div class="card-body">
+            <p><strong>Имя:</strong> {{ employee.first_name }}</p>
+            <p><strong>Фамилия:</strong> {{ employee.last_name }}</p>
+            <p><strong>Должность:</strong> {{ employee.position }}</p>
+            <p><strong>Дата приёма:</strong> {{ employee.date_joined }}</p>
+        </div>
+        <div class="card-footer text-end">
+            <a href="{% url 'employee_edit' employee.id %}" class="btn btn-warning">Редактировать</a>
+            <a href="{% url 'employee_list' %}" class="btn btn-secondary">Назад</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

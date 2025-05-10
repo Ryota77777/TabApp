@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}Редактировать сотрудника{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Редактировать сотрудника</h2>
+    <div class="card shadow-sm p-4">
+        <h4 class="mb-4 text-primary text-center">{{ employee.first_name }} {{ employee.last_name }}</h4>
+        
+        <form method="post">
+            {% csrf_token %}
+            {% for field in form %}
+                <div class="mb-3">
+                    <label for="{{ field.id_for_label }}" class="form-label">{{ field.label }}</label>
+                    {{ field }}
+                    {% if field.errors %}
+                        <div class="text-danger small">
+                            {{ field.errors|striptags }}
+                        </div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+            
+            <div class="d-flex justify-content-between mt-4">
+                <button type="submit" class="btn btn-success">💾 Сохранить</button>
+                <a href="{% url 'employee_list' %}" class="btn btn-outline-secondary">↩ Отмена</a>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
+
