@@ -24,7 +24,7 @@ class TabelForm(forms.ModelForm):
 class EmployeeForm(forms.ModelForm):
     class Meta:
         model = Employee
-        fields = ['first_name', 'last_name', 'position', 'date_joined']
+        fields = ['user', 'first_name', 'last_name', 'position', 'date_joined']
         widgets = {
             'date_joined': forms.DateInput(attrs={'type': 'date'}),
         }
