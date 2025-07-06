@@ -28,7 +28,7 @@
   ![Скриншот табелей](https://github.com/Ryota77777/TabApp/blob/main/templates/tabel.png?raw=true)
 
 - 👷 Список сотрудников  
-  ![Скриншот списка сотрудников](https://github.com/Ryota77777/TabApp/blob/main/templates/photo_2024-07-02_16-44-11.jpg?raw=true)
+  ![Скриншот списка сотрудников](https://github.com/Ryota77777/TabApp/blob/main/templates/employee.png?raw=true)
 
 - 📈 Отчёты по часам  
   ![Скриншот отчетов](https://github.com/Ryota77777/TabApp/blob/main/Assets/otcheti.png?raw=true)
