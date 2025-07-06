@@ -19,22 +19,22 @@
 ## 📸 Скриншоты
 
 - 🏠 Главная страница неавторизованного пользователя  
-  `screenshots/home.png`
+ ![Скриншот Главной страницы](https://github.com/Ryota77777/TabApp/blob/main/Assets/photo_2024-07-02_16-44-11.jpg?raw=true)
 
 - 📊 Дашборд после входа  
-  `screenshots/dashboard.png`
+  ![Скриншот дашборда](https://github.com/Ryota77777/TabApp/blob/main/Assets/photo_2024-07-02_16-44-11.jpg?raw=true)
 
 - ✅ Список табелей  
-  `screenshots/tabel_list.png`
+  ![Скриншот табелей](https://github.com/Ryota77777/TabApp/blob/main/Assets/photo_2024-07-02_16-44-11.jpg?raw=true)
 
 - 👷 Список сотрудников  
-  `screenshots/employee_list.png`
+  ![Скриншот списка сотрудников](https://github.com/Ryota77777/TabApp/blob/main/Assets/photo_2024-07-02_16-44-11.jpg?raw=true)
 
 - 📈 Отчёты по часам  
-  `screenshots/report.png`
+  ![Скриншот отчетов](https://github.com/Ryota77777/TabApp/blob/main/Assets/photo_2024-07-02_16-44-11.jpg?raw=true)
 
 - ⚙️ Профиль и настройки сотрудника  
-  `screenshots/settings.png`
+  ![Скриншот настроек и профиля](https://github.com/Ryota77777/TabApp/blob/main/Assets/photo_2024-07-02_16-44-11.jpg?raw=true)
 
 ---
 
