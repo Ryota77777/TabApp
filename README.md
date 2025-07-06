@@ -25,16 +25,16 @@
   ![Скриншот дашборда](https://github.com/Ryota77777/TabApp/blob/main/templates/dash.png?raw=true)
 
 - ✅ Список табелей  
-  ![Скриншот табелей](https://github.com/Ryota77777/TabApp/blob/main/Assets/photo_2024-07-02_16-44-11.jpg?raw=true)
+  ![Скриншот табелей](https://github.com/Ryota77777/TabApp/blob/main/templates/tabel.png?raw=true)
 
 - 👷 Список сотрудников  
-  ![Скриншот списка сотрудников](https://github.com/Ryota77777/TabApp/blob/main/Assets/photo_2024-07-02_16-44-11.jpg?raw=true)
+  ![Скриншот списка сотрудников](https://github.com/Ryota77777/TabApp/blob/main/templates/photo_2024-07-02_16-44-11.jpg?raw=true)
 
 - 📈 Отчёты по часам  
-  ![Скриншот отчетов](https://github.com/Ryota77777/TabApp/blob/main/Assets/photo_2024-07-02_16-44-11.jpg?raw=true)
+  ![Скриншот отчетов](https://github.com/Ryota77777/TabApp/blob/main/Assets/otcheti.png?raw=true)
 
 - ⚙️ Профиль и настройки сотрудника  
-  ![Скриншот настроек и профиля](https://github.com/Ryota77777/TabApp/blob/main/Assets/photo_2024-07-02_16-44-11.jpg?raw=true)
+  ![Скриншот настроек и профиля](https://github.com/Ryota77777/TabApp/blob/main/templates/settings.png?raw=true)
 
 ---
 
