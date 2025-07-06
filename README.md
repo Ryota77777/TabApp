@@ -31,7 +31,7 @@
   ![Скриншот списка сотрудников](https://github.com/Ryota77777/TabApp/blob/main/templates/employee.png?raw=true)
 
 - 📈 Отчёты по часам  
-  ![Скриншот отчетов](https://github.com/Ryota77777/TabApp/blob/main/Assets/otcheti.png?raw=true)
+  ![Скриншот отчетов](https://github.com/Ryota77777/TabApp/blob/main/templates/otcheti.png?raw=true)
 
 - ⚙️ Профиль и настройки сотрудника  
   ![Скриншот настроек и профиля](https://github.com/Ryota77777/TabApp/blob/main/templates/settings.png?raw=true)
