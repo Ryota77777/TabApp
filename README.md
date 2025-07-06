@@ -22,7 +22,7 @@
  ![Скриншот Главной страницы](https://github.com/Ryota77777/TabApp/blob/main/templates/main.jpg?raw=true)
 
 - 📊 Дашборд после входа  
-  ![Скриншот дашборда](https://github.com/Ryota77777/TabApp/blob/main/Assets/photo_2024-07-02_16-44-11.jpg?raw=true)
+  ![Скриншот дашборда](https://github.com/Ryota77777/TabApp/blob/main/templates/dash.png?raw=true)
 
 - ✅ Список табелей  
   ![Скриншот табелей](https://github.com/Ryota77777/TabApp/blob/main/Assets/photo_2024-07-02_16-44-11.jpg?raw=true)
